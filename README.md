@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Please have the following installed in order to edit code. 
+NodeJS has to be installed - https://www.geeksforgeeks.org/installation-of-node-js-on-windows/
+
 ## Available Scripts
 
 In the project directory, you can run:
