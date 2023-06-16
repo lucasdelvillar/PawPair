@@ -305,18 +305,57 @@ span {
 .card-container {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	border: 1px solid black;
+	border-radius: 30px;
 	width: 320px;
+}
+
+.inner-card {
+	position: absolute;
+	bottom: 15rem;
+	border: 1px solid black;
+	border-radius: 30px;
+	background-color: white;
+	width: 320px;
+	height: 240px;
+	
 }
 
 .otherUserPhoto {
 	width: 100%;
-	height: auto
+	height: auto;
+	border-radius: 30px;
 }
 
 .otherUserInfo {
 	display: flex;
 	flex-direction: column;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	
+}
+
+.otherUserName {
+	margin-bottom: 0.5rem;
+}
+
+.otherUserLoc {
+	margin-bottom: 1rem;
+	font-size: 12px;
+
+}
+
+.otherUserBio {
+	margin-bottom: 3px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.otherUserBioBlurb {
+	margin-bottom: 0.5rem;
+	font-size: 12px;
 }
 
 

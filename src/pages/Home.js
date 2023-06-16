@@ -17,8 +17,8 @@ function Home() {
             <>
                 <span className="otherUserName">Kai, 2</span>
                 <span className="otherUserLoc">Vancouver, 1km</span>
-                <span className>Bio</span>
-                <span className>Hey my name is Kai, and I am a super enegetic dog!</span>
+                <span className="otherUserBio">Bio</span>
+                <span className="otherUserBioBlurb">Hey my name is Kai, and I am a super enegetic dog!</span>
             </>
         )
     }
@@ -27,12 +27,15 @@ function Home() {
         return (
             <>
                 <img className="otherUserPhoto" src={require("../images/kai_photo.png")} alt="user photo" />
-                <div className="otherUserInfo">
-                    <OtherUserInfo />
+                <div className="inner-card">
+                    <div className="otherUserInfo">
+                        <OtherUserInfo />
+                    </div>
+                    <div className="like-or-dislike">
+                        <Buttons />
+                    </div>
                 </div>
-                <div className="like-or-dislike">
-                    <Buttons />
-                </div>
+
             </>
         )
     }
@@ -43,7 +46,7 @@ function Home() {
             <div className="home-container">
                 <h1>Pets Nearby</h1>
                 <div className='card-container'>
-                    <Card/>
+                    <Card />
                 </div>
             </div>
         </>
