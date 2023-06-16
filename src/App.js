@@ -14,6 +14,7 @@ function App() {
                         <Route index element={<Login />} />
                         {/* Sign out button will take user to the Login page */}
                         <Route path="Login" element={<Login />} /> 
+                        <Route path="Home" element={<Home />} /> 
                         <Route path="UserProfile" element={<UserProfile />} />
                     </Route>
                 </Routes>
