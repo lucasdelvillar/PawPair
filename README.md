@@ -2,8 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Please have the following installed in order to edit code. 
-NodeJS has to be installed - https://www.geeksforgeeks.org/installation-of-node-js-on-windows/
+## Please have the following installed in order to run this code.
+1) Make sure that Node.js is installed on your machine
+2) Run 'npm install' in the directory that contains the files. This will look This will look at the package.json file and install all the necessary modules.
 
 ## Available Scripts
 
